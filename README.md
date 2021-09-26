@@ -4,24 +4,29 @@ Sa se construiasca o aplicatie pentru gestionarea unui magazin de electrocasnice
 vinde doar doua produse: Frigidere si Masini de spalat.
 
 Se vor construi urmatoarele clase:
+
 ● Produs:
+
     ○ Clasa de baza.
     ○ Nu vor exista instante ale clasei Produs
     ○ Clasa Produs va avea urmatorii membrii
         ■ id - intreg
         ■ nume - string
         ■ pret - double
-● Frigider
+● Frigider:
+
     ○ Extinde clasa Produs
     ○ Are urmatorii membrii:
         ■ volum - intreg
         ■ areCongelator - bool
 ● MasinaDeSpalat:
+
     ○ Extinde clasa Produs
     ○ Are urmatorii membrii:
         ■ rotatiiPeMinut - intreg
         ■ clasaEnergetica - string
 ● Magazin:
+
     ○ Are urmatoarele metode
         ■ Magazin(int nrProduse)
             ● Contructor pentru clasa Magazin. Primeste ca parametru
@@ -41,17 +46,25 @@ Se vor construi urmatoarele clase:
 Hint: Pentru stocarea produselor puteti folosi un vector de pointeri la tipul Produs. Puteti folosi
 valoarea NULL pentru a marca pozitiile libere din magazin.
 
-Observatie: P
-uteti adauga componente in plus fata de cele descrise mai sus (membrii sau
+Observatie:
+
+Puteti adauga componente in plus fata de cele descrise mai sus (membrii sau
 metode noi) pentru fiecare dintre clasele descrise daca le considerati utile.
 Meniul va permite urmatoarele optiuni:
-  ● A - Adauga produs (se citest detaliile de la tastatura)
-  ● E - elimina produs (se citeste id produs de la tastatura)
-  ● C - cauta produs (se citeste id produs de la tastatura)
-  ● N - numara masina de spalat
-  ● L - scrie produse
 
-  Notare:
+  ● A - Adauga produs (se citest detaliile de la tastatura)
+  
+  ● E - elimina produs (se citeste id produs de la tastatura)
+  
+  ● C - cauta produs (se citeste id produs de la tastatura)
+  
+  ● N - numara masina de spalat
+  
+  ● L - scrie produse
+  
+
+Notare:
+  
     ● Construirea ierarhiei de clase: 40pct
     ● Construirea metodei adaugaProdus (A)- 6p
     ● Construirea metodei eliminaProdus (E)- 6p
